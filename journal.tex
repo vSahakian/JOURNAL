@@ -203,6 +203,41 @@ To modify the starting model and adjust the interface's surface trace, use the s
 
 /salton7base\_manip2.m
 
+\subexperiment{Last time...Inversions 11, 12, and 13}
+
+In October, inversions 12 and 13 were run; it turns out the "final" model I had before did not include constraints on the interface from the MCS reflector picks.  Inversions 12, and the final (13) were to correct this.  
+
+\begin{figure}[h!]
+\raggedleft
+\includegraphics[scale=0.5,keepaspectratio=true]{figs/Salton7base_final11_topo_edit2.png}
+\caption{Inversion 11 final model, without MCS constraints. (a) shows a topography profile; (b) shows the model without an interface; (c) shows the final model, with no MCS constraints, and with an interface.   Chi sq = 1.3.  }
+\label{fig:line7noMCS}
+\end{figure}
+
+Inversions 12 and 13 were run with MCS constraints; the final model had a poorer chi sq than the other model; the question was why.  The best misfit came from inversion iteration 21, raytracing iteration 22, after applying the nullspace shuttles method.  This chi sq was 1.88, whereas without the MCS data it's 1.3.  The differences between the two are not that great, but with the MCS constraints the model looks a little splotchier because of where the layer 1 rays are turning.  The original final model, from inversion 11, can be seen in figure \autoref{fig:line7noMCS}; the final model with MCS constraints is seen in \autoref{fig:line7MCS}.  
+
+
+\begin{figure}[h!]
+\raggedleft
+\includegraphics[scale=0.3,keepaspectratio=true]{figs/Line7_withMCS.png}
+\caption{Inversion 13 final model, with MCS constraints.  Chi sq = 1.88.}
+\label{fig:line7MCS}
+\end{figure}
+
+Alistair suggested looking at the reflection residuals:  
+
+"I would look at how well, or not, the prediction of the previous model simply fits the trend in MCS reflection times, i.e. does it predict an increase in reflections times at about the same rate as seen in the MCS data?  If it does then it is possible that the is mostly a static time shift in your MCS picks relative to the OBS times.  If the trends aren't really compatible then you probably are doing about as well as you can in reconciling the different data within an single model.  and we should probably reconsider the possibility of the MCS reflections transgressing velocity contours."
+
+To determine if this higher misfit is due to a consistently offset reflector, I plotted the just the reflection ray paths of the model with MCS constraints (\autoref{fig:line7MCS-resid}).   
+
+\begin{figure}[h!]
+\raggedleft
+\includegraphics[scale=0.29,keepaspectratio=true]{figs/line7_resid_MCSconstraints.png}
+\caption{Inversion 13 final model ray path residuals.}
+\label{fig:line7MCS-resid}
+\end{figure}
+
+
 %Footnote example\footnote{Lorem ipsum dolor sit amet, consectetuer adipiscing elit.}.\\
 
 %Citation example \cite{lamport94}.
@@ -211,8 +246,62 @@ To modify the starting model and adjust the interface's surface trace, use the s
 
 \subexperiment{Inversion 14}
 
-Run an example with the SSAF trace set at x=18.94299186; this is commented in salton7base\_manip2.m.  
+Start running inversions with varying interface surface traces.  For inversion 14, run an example with the SSAF trace set at x=18.94299186; this is commented in salton7base\_manip2.m.  
 
+The starting model is under inversion14, and is named salton7base\_14\_0.vm, seen in \autoref{fig:startm14}.  This inversion will include constraints from MCS data; therefore, the file salton7base\_1\_4.ray will be included; this is the ray file for the MCS reflector picks.  The raytracing csh file is salton7base\_raytr14.csh and includes append = 1, so that the rays from the MCS file will be appended to the rayfan.  
+
+The other settings are as follows:
+
+set maxnode = 300,        
+set cmax = 0.75,
+set gdx = 1041,
+set gdy = 1,
+set gdz = 323
+
+set stx = 10,
+set sty = 0,
+set stz = 9,
+set ang = 0.5
+
+set tstat = 0.0,
+set xextension = 2.0,
+set yextension = 2.0
+
+Rayfan plotting is in script 
+plot\_salton7\_raypaths\_14.m.
+
+The inversion csh file is salton7base\_14.csh.  The parameters are as follows:
+
+set sr = 10.0, set sz = 5.0
+
+set slh =  0.02,
+set jph =  0.005,
+set rfh =  0.1,
+set tstath = 0.04
+
+set reg0 =    1.0, set reg1 =    1.0, set reg2 =   4.0
+
+set asr = 5.0
+
+set crf = 2, set cjp = 1
+
+\begin{figure}[h!]
+\raggedleft
+\includegraphics[scale=0.3,keepaspectratio=true]{figs/inv14_0.png}
+\caption{Inversion 14 starting model.}
+\label{fig:startm14}
+\end{figure}
+
+
+
+
+
+
+
+%-----------------------------------------
+
+\subexperiment{Raytracing and Inversion Output}
+Found in the tables.
 \begin{table}
 \label{tab:treatments_xy}
 \raggedleft
@@ -229,40 +318,17 @@ Run an example with the SSAF trace set at x=18.94299186; this is commented in sa
 \caption{The effects of treatments X and Y on the four groups studied.}
 \end{table}
 
-%-----------------------------------------
-
-\subexperiment{subexp_example2}
-
-\lipsum[4]
-
-\begin{figure}[h!]
-\raggedleft
-\includegraphics[scale=0.5,keepaspectratio=true]{placeholder.png}
-\caption{Placeholder image.}
-\label{fig:placeholder}
-\end{figure}
-
-\lipsum[5]
-
-Example figure citation: \autoref{fig:placeholder}.
-
-%-----------------------------------------
-
-\subexperiment{subexp_example3}
-
-\lipsum[6]
 
 %-----------------------------------------
 
 \experiment{example2}
 
-\lipsum[7]
+
 
 %-----------------------------------------
 
 \subexperiment{subexp_example}
 
-\lipsum[8]
 
 %-----------------------------------------
 
@@ -270,7 +336,7 @@ Example figure citation: \autoref{fig:placeholder}.
 
 \subexperiment{subexp_example}
   
-\lipsum[9]
+
 
 %----------------------------------------------------------------------------------------
 
