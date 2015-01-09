@@ -302,49 +302,43 @@ set crf = 2, set cjp = 1
 
 \subexperiment{Raytracing and Inversion Output}
 Found in the tables.
-\begin{table}
-\label{tab:treatments_xy}
+%\section{}
+%Raytr it 
+\begin{table}[ht]
+\label{tab:r0}
 \raggedleft
-\begin{tabular}{l l l}
+\begin{tabular}{l l l l l l}
 \toprule
-\textbf{Groups} & \textbf{Treatment X} & \textbf{Treatment Y} \\
+\textbf{Raytr, It = } & \textbf{tmean} & \textbf{trms} & \textbf{chi sq} & \textbf{chi r} & \textbf{meanErr} \\
 \toprule
-1 & 0.2 & 0.8\\
-2 & 0.17 & 0.7\\
-3 & 0.24 & 0.75\\
-4 & 0.68 & 0.3\\
+It0 & -0.0514 & 0.1174 & 73.2913 & 50.0788 & 0.0241\\
+It1 & -0.0182 & 0.1075 & 47.3309 & 43.8783 & 0.0241\\
 \bottomrule\\
 \end{tabular}
-\caption{The effects of treatments X and Y on the four groups studied.}
+\caption{Raytracing, outputs.}
 \end{table}
 
-
-%-----------------------------------------
-
-\experiment{example2}
-
-
-
-%-----------------------------------------
-
-\subexperiment{subexp_example}
-
-
-%-----------------------------------------
-
-\experiment{example3}
-
-\subexperiment{subexp_example}
-  
+%INv it 
+\begin{table}[ht]
+\label{tab:i0}
+\raggedleft
+\begin{tabular}{l l l l}
+\toprule
+\textbf{Inv, It = } & \textbf{set chi sq =} & \textbf{out chi sq =} & \textbf{Penalty} \\
+\toprule
+It0 & 45 & 45.460 & 55886.17\\
+It1 & 25 & 25.561 & 62766.52 \\
+\bottomrule\\
+\end{tabular}
+\caption{Inversion outputs.}
+\end{table}
 
 
 %----------------------------------------------------------------------------------------
 
-\labday{Saturday, 2 June 2012}
+\labday{Friday, 9 January 2015}
 
 \experiment{example}
-
-\lipsum[10]
 
 \begin{equation}
 \label{eq:emc}
@@ -353,25 +347,6 @@ e = mc^2
 
 Example equation citation: \autoref{eq:emc}.
 
-%-----------------------------------------
-
-\subexperiment{subexp_example}
-
-\lipsum[11-13]
-
-%-----------------------------------------
-
-\experiment{example2}
-
-\lipsum[14]
-
-%-----------------------------------------
-
-\subexperiment{subexp_example}
-
-\lipsum[15]
- 
-%----------------------------------------------------------------------------------------
  
 \end{addmargin}
 
