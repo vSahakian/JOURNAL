@@ -301,51 +301,229 @@ set crf = 2, set cjp = 1
 %-----------------------------------------
 
 \subexperiment{Raytracing and Inversion Output}
-Found in the tables.
+Found in the tables \autoref{tab:r14}, \autoref{tab:i14}.
 %\section{}
 %Raytr it 
 \begin{table}[ht]
-\label{tab:r0}
+\label{tab:r14}
 \raggedleft
-\begin{tabular}{l l l l l l}
+\begin{tabular}{c l l l l l}
 \toprule
 \textbf{Raytr, It = } & \textbf{tmean} & \textbf{trms} & \textbf{chi sq} & \textbf{chi r} & \textbf{meanErr} \\
 \toprule
 It0 & -0.0514 & 0.1174 & 73.2913 & 50.0788 & 0.0241\\
 It1 & -0.0182 & 0.1075 & 47.3309 & 43.8783 & 0.0241\\
+It2 & -0.0068 & 0.0906 & 25.6917 & 25.2468 & 0.0241\\
+It3 & -0.0131 & 0.0644 & 14.3934 & 13.6786 & 0.0241\\
+It4 & -0.0135 &  0.0527 & 8.7668 & 8.3057 & 0.0241\\
+It5 & -0.0110 & 0.0446 & 5.2944 & 5.2898 & 0.0241\\
+It6 & -0.0117 & 0.0382 & 3.1804 & 3.3014 & 0.0241\\
+It7 & -0.0116 & 0.0360 & 2.5369 & 2.7169 & 0.0241\\
+It8 & -0.0112 & 0.0349 & 2.2200 & 2.4544 & 0.0241\\
+It9 & -0.0116 & 0.0339 & 2.0821 & 2.3345 & 0.0241\\
+It10 & -0.0110 & 0.0338 & 1.9729 & 2.2349 & 0.0241\\
+It11 & -0.0104 & 0.0336 & 1.9733 & 2.2920 & 0.0241\\
+It12orig & -0.0108 & 0.0336 & 1.9329 & 2.2353 & 0.0241\\
+It12 & -0.0039 & 0.0439 & 3.2228 & 3.4501 & 0.0241\\
+It13 & -0.0114 & 0.0346 & 1.9718 & 2.1610 & 0.0241\\
+It14 & -0.0112 & 0.0335 & 1.8335 & 2.1037 & 0.0241\\
+It15 & -0.0101 & 0.0337 & 1.8931 & 2.2218 & 0.0241\\
+It16 & -0.0120 & 0.0340 & 2.0673 & 2.2598 &  0.0241\\
 \bottomrule\\
 \end{tabular}
-\caption{Raytracing, outputs.}
+\caption{Inversion 14: Raytracing outputs.}
 \end{table}
+
+\clearpage
 
 %INv it 
 \begin{table}[ht]
-\label{tab:i0}
+\label{tab:i14}
 \raggedleft
-\begin{tabular}{l l l l}
+\begin{tabular}{c l l l}
 \toprule
 \textbf{Inv, It = } & \textbf{set chi sq =} & \textbf{out chi sq =} & \textbf{Penalty} \\
 \toprule
 It0 & 45 & 45.460 & 55886.17\\
-It1 & 25 & 25.561 & 62766.52 \\
+It1 & 25 & 25.561 & 62766.52\\
+It2 & 14 & 14.326 & 69724.12\\
+It3 & 8 & 7.9459 & 75484.60\\
+It4 & 5 & 4.9981 & 77469.94\\
+It5 & 3 & 2.9994 & 86143.92\\
+It6 & 2.3 & 2.3256 & 84903.17\\
+It7 & 2.1 & 2.1429 & 81591.07\\
+It8 & 1.8 & 1.8184 & 86594.72\\
+It9 & 1.8 & 1.8618 & 83126.27\\
+It10 & 1.8 & 1.8382 & 81169.54\\
+It11 & 1.8 & 1.8382 & 79752.90\\
+It12 & 2.0 & 2.0432 & 79529.48\\
+It13 & 1.7 & 1.7128 & 83947.84\\
+It14 & 1.7 & 1.7564 & 81046.24\\
+It15 & 1.7 & 1.7376 & 79148.52\\
 \bottomrule\\
 \end{tabular}
-\caption{Inversion outputs.}
+\caption{Inversion 14: Inversion outputs.}
 \end{table}
 
+\clearpage
 
 %----------------------------------------------------------------------------------------
 
 \labday{Friday, 9 January 2015}
+\experiment{Continuing Inversion 14}
+Continuing from Thursday.  
 
-\experiment{example}
+\subexperiment{Inversion 14 steps and results}
+Continued running Inversion 14 (output referenced in \autoref{tab:r14} and \autoref{tab:i14}).
 
-\begin{equation}
-\label{eq:emc}
-e = mc^2
-\end{equation}
+Run nullspace shuttles on inversion iteration 11 (vm 12).  The pre-shuttled model, with a chi sq of 1.9329, is the best fit so far but is quite splotchy.  See in \autoref{fig:it11preshut}.  I used salton7\_shuttle\_update.m to create the shuttled model; 
 
-Example equation citation: \autoref{eq:emc}.
+\begin{figure}[h!]
+\raggedleft
+\includegraphics[scale=0.4,keepaspectratio=true]{../inversion14/figures/vm12_preshuttle.png}
+\caption{Inversion 14, iteration 11 (vm 12), pre shuttle.}
+\label{fig:it11preshut}
+\end{figure}
+
+Moving forwards, I named the output, shuttled model 
+
+"Shuttles/line7shuttles/salton\_smshuttle\_inv14.vm".  This was copied into inversion14/, and renamed to salton7base\_14\_12.vm.
+In inversion14, I renamed 12.ray, 12.vm, 12\_rough.vm, and 12\_raytr.out to orig.
+
+In inversion\_temp, I renamed all iteration 11's to \_orig; including the anz, inz, nlr, rhsc, rhsn, sol, vecm\_in, and vecm\_out iteration 11's.  
+
+\begin{figure}[h!]
+\raggedleft
+\includegraphics[scale=0.6,keepaspectratio=true]{figs/shuttlesInv14.png}
+\caption{Inversion 14, iteration 11(vm12), post shuttle.}
+\label{fig:it11postshut}
+\end{figure}
+
+After this, ray trace on the new shuttled model; so re-run raytracing iteration 12.  In the tables, the pre-shuttled statistics (raytracing it12) have been renamed to original.  The post-shuttled raytracing will be the new It12; this velocity model is in \autoref{fig:it11postshut}.
+
+After several more iterations, I find that vm 14 (raytracing iteration 14, inversion iteration 13) has the lowest misfit (chi sq = 1.8335), and looks the "best" (the smoothest).  The final model is seen in \autoref{fig:inv14final}.  
+
+
+\begin{figure}[h!]
+\raggedleft
+\includegraphics[scale=0.4,keepaspectratio=true]{figs/inv14_it13_FINAL.png}
+\caption{Inversion 14, final model.  Vm number 14; chi sq = 1.8335.}
+\label{fig:inv14final}
+\end{figure}
+
+\clearpage{}
+
+%\experiment{example}
+%
+%\begin{equation}
+%\label{eq:emc}
+%e = mc^2
+%\end{equation}
+%
+%Example equation citation: \autoref{eq:emc}.
+
+
+%----------------------------------------------------------------------------------------
+\labday{Thursday, 15 January 2015}
+
+\experiment{Inversion 15 - Interface to the W of the SSAF trace}
+
+Starting inversion 15.  Here, the interface intersects the surface at 17.9km along-profile, about 1 km west of the surface trace of the SSAF.  
+
+To create the starting model, I once again used the script salton7base\_manip2.m.    The output model (starting model) is salton7base\_15\_0.vm, in inversion15/.  This is seen in \autoref{fig:inv15start}.  This inversion will include constraints from MCS data; therefore, the file salton7base\_1\_4.ray will be included; this is the ray file for the MCS reflector picks.  The raytracing csh file is salton7base\_raytr15.csh and includes append = 1, so that the rays from the MCS file will be appended to the rayfan.  
+
+The other settings are as follows:
+
+set maxnode = 300,        
+set cmax = 0.75,
+set gdx = 1041,
+set gdy = 1,
+set gdz = 323
+
+set stx = 10,
+set sty = 0,
+set stz = 9,
+set ang = 0.5
+
+set tstat = 0.0,
+set xextension = 2.0,
+set yextension = 2.0
+
+
+Rayfan plotting is in script 
+plot\_salton7\_raypaths\_15.m.
+
+The inversion csh file is salton7base\_15.csh.  The parameters are as follows:
+
+set sr = 10.0, set sz = 5.0
+
+set slh =  0.02,
+set jph =  0.005,
+set rfh =  0.1,
+set tstath = 0.04
+
+set reg0 =    1.0, set reg1 =    1.0, set reg2 =   4.0
+
+set asr = 5.0
+
+set crf = 2, set cjp = 1
+
+\begin{figure}[h!]
+\raggedleft
+\includegraphics[scale=0.4,keepaspectratio=true]{figs/inv15_0.png}
+\caption{Inversion 15 starting model.}
+\label{fig:inv15start}
+\end{figure}
+
+\clearpage{}
+
+\subexperiment{Raytracing and Inversion Output}
+Output found in \autoref{tab:r15} and \autoref{tab:i15}.
+
+%Raytracing Output, INversion 15
+\begin{table}[!ht]
+\label{tab:r15}
+\raggedleft
+\begin{tabular}{c l l l l l}
+\toprule
+\textbf{Raytr, It = } & \textbf{tmean} & \textbf{trms} & \textbf{chi sq} & \textbf{chi r} & \textbf{meanErr} \\
+\toprule
+It0 & -0.0529 & 0.1197 & 77.0745 & 52.4152 & 0.0241\\
+It1 & -0.0222 & 0.1102 & 52.0758 & 47.1082 & 0.0241\\
+It2 & -0.0055 & 0.0948 & 29.0273 & 28.6880 & 0.0241\\
+It3 & -0.0134 & 0.0696 & 17.7654 & 16.8745 & 0.0241\\
+It4 & -0.0135 & 0.0586 & 11.9874 & 11.4367 & 0.0241\\
+It5 & -0.0111 & 0.0494 & 7.6122 & 7.5095 & 0.0241\\
+It6 & -0.0098 & 0.0456 & 5.6006 & 5.6730 & 0.0241\\
+It7 & -0.0105 & 0.0420 & 4.3647 & 4.4582 & 0.0241\\
+\bottomrule\\
+\end{tabular}
+\caption{Inversion 15: Raytracing outputs.}
+\end{table}
+
+%Inversion Output, Inversion 15
+%INv it 
+\begin{table}[!ht]
+\label{tab:i15}
+\raggedleft
+\begin{tabular}{c l l l}
+\toprule
+\textbf{Inv, It = } & \textbf{set chi sq =} & \textbf{out chi sq =} & \textbf{Penalty} \\
+\toprule
+It0 & 50 & 50.182 & 144875.5\\
+It1 & 30 & 29.006 & 149535.8\\
+It2 & 17 & 17.770 & 152034.2\\
+It3 & 11 & 11.190 & 153989.8\\
+It4 & 7 & 7.1052 & 159624.0\\
+It5 & 5 & 5.2451 & 154047.7\\
+It6 & 4 & 4.0112 & 153415.7\\
+It7 & 3 & & \\
+\bottomrule\\
+\end{tabular}
+\caption{Inversion 15: Inversion outputs.}
+\end{table}
+
+
 
  
 \end{addmargin}
