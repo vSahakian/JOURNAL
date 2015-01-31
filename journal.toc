@@ -1,12 +1,48 @@
 \select@language {english}
-\contentsline {chapter}{\nonumberline Thursday, 8 January 2015}{4}{chapter*.2}
-\contentsline {experiment}{\numberline {1}Modeling varying interfaces for the SSAF}{4}{experiment.1.1}
-\contentsline {subexperiment}{\numberline {1.1}Last time...Inversions 11, 12, and 13}{4}{subexperiment.1.1.1}
-\contentsline {subexperiment}{\numberline {1.2}Inversion 14}{6}{subexperiment.1.1.2}
-\contentsline {subexperiment}{\numberline {1.3}Raytracing and Inversion Output}{7}{subexperiment.1.1.3}
-\contentsline {chapter}{\nonumberline Friday, 9 January 2015}{10}{chapter*.3}
-\contentsline {experiment}{\numberline {1}Continuing Inversion 14}{10}{experiment.2.1}
-\contentsline {subexperiment}{\numberline {1.1}Inversion 14 steps and results}{10}{subexperiment.2.1.1}
-\contentsline {chapter}{\nonumberline Thursday, 15 January 2015}{13}{chapter*.4}
-\contentsline {experiment}{\numberline {1}Inversion 15 - Interface to the W of the SSAF trace}{13}{experiment.3.1}
-\contentsline {subexperiment}{\numberline {1.1}Raytracing and Inversion Output}{15}{subexperiment.3.1.1}
+\contentsline {chapter}{\nonumberline Thursday, 8 January 2015}{5}{chapter*.2}
+\contentsline {experiment}{\numberline {1}Modeling varying interfaces for the SSAF}{5}{experiment.1.1}
+\contentsline {subexperiment}{\numberline {1.1}Last time...Inversions 11, 12, and 13}{5}{subexperiment.1.1.1}
+\contentsline {subexperiment}{\numberline {1.2}Inversion 14}{7}{subexperiment.1.1.2}
+\contentsline {subexperiment}{\numberline {1.3}Raytracing and Inversion Output}{8}{subexperiment.1.1.3}
+\contentsline {chapter}{\nonumberline Friday, 9 January 2015}{11}{chapter*.3}
+\contentsline {experiment}{\numberline {1}Continuing Inversion 14}{11}{experiment.2.1}
+\contentsline {subexperiment}{\numberline {1.1}Inversion 14 steps and results}{11}{subexperiment.2.1.1}
+\contentsline {chapter}{\nonumberline Thursday, 15 January 2015}{14}{chapter*.4}
+\contentsline {experiment}{\numberline {1}Inversion 15 - Interface to the W of the SSAF trace}{14}{experiment.3.1}
+\contentsline {subexperiment}{\numberline {1.1}Raytracing and Inversion Output}{16}{subexperiment.3.1.1}
+\contentsline {subexperiment}{\numberline {1.2}Inversion 15 Results}{17}{subexperiment.3.1.2}
+\contentsline {experiment}{\numberline {2}Inversion 16}{17}{experiment.3.2}
+\contentsline {subexperiment}{\numberline {2.1}Inversion 16 setup}{17}{subexperiment.3.2.1}
+\contentsline {subexperiment}{\numberline {2.2}Raytracing and Inversion Output}{18}{subexperiment.3.2.2}
+\contentsline {subexperiment}{\numberline {2.3}Inversion 16 results}{19}{subexperiment.3.2.3}
+\contentsline {chapter}{\nonumberline Friday, 16 January 2015}{19}{chapter*.5}
+\contentsline {experiment}{\numberline {1}Move Interface East of the SSAF Surface trace - Inversion 17}{19}{experiment.4.1}
+\contentsline {subexperiment}{\numberline {1.1}Inversion 17 Setup}{19}{subexperiment.4.1.1}
+\contentsline {subexperiment}{\numberline {1.2}Inversion 17 Raytracing and Inversion Output}{20}{subexperiment.4.1.2}
+\contentsline {subexperiment}{\numberline {1.3}Inversion 17 Shuttles}{22}{subexperiment.4.1.3}
+\contentsline {subexperiment}{\numberline {1.4}Inversion 17 Results}{23}{subexperiment.4.1.4}
+\contentsline {experiment}{\numberline {2}Inversion 18}{26}{experiment.4.2}
+\contentsline {subexperiment}{\numberline {2.1}Inversion 18 setup}{26}{subexperiment.4.2.1}
+\contentsline {subexperiment}{\numberline {2.2}Inversion 18 Raytracing and Inversion Output}{26}{subexperiment.4.2.2}
+\contentsline {subexperiment}{\numberline {2.3}Inversion 18 Shuttle Method}{29}{subexperiment.4.2.3}
+\contentsline {subexperiment}{\numberline {2.4}Inversion 18 Results}{30}{subexperiment.4.2.4}
+\contentsline {experiment}{\numberline {3}Inversion 19; Run shuttles earlier on inv 18}{32}{experiment.4.3}
+\contentsline {subexperiment}{\numberline {3.1}Inversion 19 Setup}{32}{subexperiment.4.3.1}
+\contentsline {subexperiment}{\numberline {3.2}Inversion 19 Raytracing and Inversion Output}{34}{subexperiment.4.3.2}
+\contentsline {subexperiment}{\numberline {3.3}Inversion 19 Results}{35}{subexperiment.4.3.3}
+\contentsline {experiment}{\numberline {4}Inversion 20: Inversion 17 without MCS constraints}{37}{experiment.4.4}
+\contentsline {subexperiment}{\numberline {4.1}Inversion 20 setup}{37}{subexperiment.4.4.1}
+\contentsline {subexperiment}{\numberline {4.2}Inversion 20 Raytracing and Inversion Output}{37}{subexperiment.4.4.2}
+\contentsline {subexperiment}{\numberline {4.3}Inversion 20 shuttles}{40}{subexperiment.4.4.3}
+\contentsline {subexperiment}{\numberline {4.4}Inversion 20 Results}{40}{subexperiment.4.4.4}
+\contentsline {experiment}{\numberline {5}Inversion 21 - Inversion 18 w/o MCS constraints}{43}{experiment.4.5}
+\contentsline {subexperiment}{\numberline {5.1}Inversion 21 Setup}{43}{subexperiment.4.5.1}
+\contentsline {subexperiment}{\numberline {5.2}Raytracing and Inversion Output}{43}{subexperiment.4.5.2}
+\contentsline {subexperiment}{\numberline {5.3}Inversion 21 Shuttles Method}{46}{subexperiment.4.5.3}
+\contentsline {subexperiment}{\numberline {5.4}Inversion 21 Results}{47}{subexperiment.4.5.4}
+\contentsline {chapter}{\nonumberline Thursday, 29 January 2015}{49}{chapter*.6}
+\contentsline {experiment}{\numberline {1}Summary}{49}{experiment.5.1}
+\contentsline {subexperiment}{\numberline {1.1}Interface at the SSAF surface trace}{49}{subexperiment.5.1.1}
+\contentsline {subexperiment}{\numberline {1.2}Interface to the West of the SSAF surface trace}{49}{subexperiment.5.1.2}
+\contentsline {subexperiment}{\numberline {1.3}Interface to the East of the SSAF trace}{50}{subexperiment.5.1.3}
+\contentsline {subexperiment}{\numberline {1.4}Conclusions??}{52}{subexperiment.5.1.4}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 JAN 2015 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  30 JAN 2015 20:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -901,7 +901,11 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
-(./journal.aux)
+(./journal.aux
+
+LaTeX Warning: Label `fig:inv18ray' multiply defined.
+
+)
 \openout1 = `journal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
@@ -1105,16 +1109,17 @@ No file journal.ind.
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 17
 9.
- (./journal.toc)
+ (./journal.toc
+
+LaTeX Font Warning: Font shape `T1/RobotoSlab-LF/m/sl' undefined
+(Font)              using `T1/RobotoSlab-LF/m/n' instead on input line 37.
+
+[3])
 \tf@toc=\write5
 \openout5 = `journal.toc'.
 
-
-
-LaTeX Font Warning: Font shape `T1/RobotoSlab-LF/m/sl' undefined
-(Font)              using `T1/RobotoSlab-LF/m/n' instead on input line 180.
-
-[3] <figs/Salton7base_final11_topo_edit2.png, id=78, 750.6444pt x 483.2454pt>
+ [4]
+<figs/Salton7base_final11_topo_edit2.png, id=264, 750.6444pt x 483.2454pt>
 File: figs/Salton7base_final11_topo_edit2.png Graphic file (type png)
 
 <use figs/Salton7base_final11_topo_edit2.png>
@@ -1133,7 +1138,7 @@ LaTeX Font Warning: Font shape `T1/RobotoSlab-LF/bx/n' undefined
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Line7_withMCS.png, id=82, 1631.09375pt x 384.43625pt>
+<figs/Line7_withMCS.png, id=268, 1631.09375pt x 384.43625pt>
 File: figs/Line7_withMCS.png Graphic file (type png)
 
 <use figs/Line7_withMCS.png>
@@ -1147,7 +1152,7 @@ Overfull \hbox (71.07819pt too wide) in paragraph at lines 222--223
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4] <figs/line7_resid_MCSconstraints.png, id=93, 1838.87pt x 742.775pt>
+[5] <figs/line7_resid_MCSconstraints.png, id=279, 1838.87pt x 742.775pt>
 File: figs/line7_resid_MCSconstraints.png Graphic file (type png)
 
 <use figs/line7_resid_MCSconstraints.png>
@@ -1165,13 +1170,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./figs/Salton7base_final11_topo_edit2.png> <./figs/Line7_withMCS.png>]
+ [6 <./figs/Salton7base_final11_topo_edit2.png> <./figs/Line7_withMCS.png>]
 Overfull \hbox (63.5785pt too wide) in paragraph at lines 251--252
 []\T1/RobotoSlab-LF/m/sl/10.95 (-10) The start-ing model is un-der in-ver-sion1
 4, and is named salton7base_14_0.vm,
  []
 
-<figs/inv14_0.png, id=103, 1304.875pt x 549.05125pt>
+<figs/inv14_0.png, id=289, 1304.875pt x 549.05125pt>
 File: figs/inv14_0.png Graphic file (type png)
  <use figs/inv14_0.png>
 Package pdftex.def Info: figs/inv14_0.png used on input line 290.
@@ -1187,7 +1192,7 @@ Package hyperref Warning: No autoref name for `subexperiment' on input line 304
 
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
- [6 <./figs/line7_resid_MCSconstraints.png>] [7 <./figs/inv14_0.png>] [8] [9
+ [7 <./figs/line7_resid_MCSconstraints.png>] [8 <./figs/inv14_0.png>] [9] [10
 
 ]
 
@@ -1201,7 +1206,7 @@ Overfull \hbox (8.36923pt too wide) in paragraph at lines 379--380
  []
 
 
-<../inversion14/figures/vm12_preshuttle.png, id=133, 1213.53375pt x 403.5075pt>
+<../inversion14/figures/vm12_preshuttle.png, id=320, 1213.53375pt x 403.5075pt>
 File: ../inversion14/figures/vm12_preshuttle.png Graphic file (type png)
 <use ../inversion14/figures/vm12_preshuttle.png>
 Package pdftex.def Info: ../inversion14/figures/vm12_preshuttle.png used on inp
@@ -1218,7 +1223,7 @@ Overfull \hbox (5.71222pt too wide) in paragraph at lines 390--392
 nv14.vm". This was
  []
 
-<figs/shuttlesInv14.png, id=134, 656.4525pt x 658.46pt>
+<figs/shuttlesInv14.png, id=321, 656.4525pt x 658.46pt>
 File: figs/shuttlesInv14.png Graphic file (type png)
 
 <use figs/shuttlesInv14.png>
@@ -1228,10 +1233,10 @@ Package pdftex.def Info: figs/shuttlesInv14.png used on input line 397.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10
+[11
 
  <../inversion14/figures/vm12_preshuttle.png>]
-<figs/inv14_it13_FINAL.png, id=145, 1189.44376pt x 475.7775pt>
+<figs/inv14_it13_FINAL.png, id=331, 1189.44376pt x 475.7775pt>
 File: figs/inv14_it13_FINAL.png Graphic file (type png)
 
 <use figs/inv14_it13_FINAL.png>
@@ -1245,8 +1250,8 @@ Overfull \hbox (57.51535pt too wide) in paragraph at lines 409--410
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11 <./figs/shuttlesInv14.png>] [12 <./figs/inv14_it13_FINAL.png>]
-<figs/inv15_0.png, id=159, 1191.45125pt x 470.75874pt>
+[12 <./figs/shuttlesInv14.png>] [13 <./figs/inv14_it13_FINAL.png>]
+<figs/inv15_0.png, id=346, 1191.45125pt x 470.75874pt>
 File: figs/inv15_0.png Graphic file (type png)
  <use figs/inv15_0.png>
 Package pdftex.def Info: figs/inv15_0.png used on input line 473.
@@ -1259,61 +1264,588 @@ Overfull \hbox (58.31834pt too wide) in paragraph at lines 473--474
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13
+[14
 
-] [14 <./figs/inv15_0.png>]
+] [15 <./figs/inv15_0.png>]
 
 Package hyperref Warning: No autoref name for `subexperiment' on input line 481
 .
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16
+
+]
+<figs/Inv15_final.png, id=369, 1250.6725pt x 384.43625pt>
+File: figs/Inv15_final.png Graphic file (type png)
+
+<use figs/Inv15_final.png>
+Package pdftex.def Info: figs/Inv15_final.png used on input line 542.
+(pdftex.def)             Requested size: 437.74194pt x 134.55469pt.
+
+Overfull \hbox (19.48822pt too wide) in paragraph at lines 542--543
+ [][]
+ []
+
+<figs/Inv16_0.png, id=371, 1253.68375pt x 433.62pt>
+File: figs/Inv16_0.png Graphic file (type png)
+ <use figs/Inv16_0.png>
+Package pdftex.def Info: figs/Inv16_0.png used on input line 561.
+(pdftex.def)             Requested size: 438.79588pt x 151.76927pt.
+
+Overfull \hbox (20.54216pt too wide) in paragraph at lines 561--562
+ [][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package hyperref Warning: No autoref name for `subexperiment' on input line 567
+.
+
+[17 <./figs/Inv15_final.png>]
+Underfull \vbox (badness 7522) has occurred while \output is active []
+
+ [18 <./figs/Inv16_0.png>] <figs/Inv16_final.png, id=389, 1148.29pt x 359.3425p
+t>
+File: figs/Inv16_final.png Graphic file (type png)
+
+<use figs/Inv16_final.png>
+Package pdftex.def Info: figs/Inv16_final.png used on input line 614.
+(pdftex.def)             Requested size: 401.90752pt x 125.77174pt.
+ <figs/Inv17_0.png, id=391, 1170.3725pt x 353.32pt>
+File: figs/Inv17_0.png Graphic file (type png)
+
+<use figs/Inv17_0.png>
+Package pdftex.def Info: figs/Inv17_0.png used on input line 636.
+(pdftex.def)             Requested size: 468.1407pt x 141.32549pt.
+
+Overfull \hbox (49.88698pt too wide) in paragraph at lines 636--637
+ [][]
+ []
+
+[19 <./figs/Inv16_final.png>] [20 <./figs/Inv17_0.png>] [21]
+<figs/inv17preshut.png, id=414, 1166.3575pt x 386.44376pt>
+File: figs/inv17preshut.png Graphic file (type png)
+
+<use figs/inv17preshut.png>
+Package pdftex.def Info: figs/inv17preshut.png used on input line 715.
+(pdftex.def)             Requested size: 466.53474pt x 154.57475pt.
+
+Overfull \hbox (48.28102pt too wide) in paragraph at lines 715--716
+ [][]
+ []
+
+<figs/inv17postshut_orig.png, id=416, 707.64375pt x 626.34pt>
+File: figs/inv17postshut_orig.png Graphic file (type png)
+
+<use figs/inv17postshut_orig.png>
+Package pdftex.def Info: figs/inv17postshut_orig.png used on input line 724.
+(pdftex.def)             Requested size: 424.58952pt x 375.80688pt.
+
+Overfull \hbox (6.3358pt too wide) in paragraph at lines 724--725
+ [][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/inv17postshut.png, id=418, 860.21375pt x 633.36626pt>
+File: figs/inv17postshut.png Graphic file (type png)
+
+<use figs/inv17postshut.png>
+Package pdftex.def Info: figs/inv17postshut.png used on input line 733.
+(pdftex.def)             Requested size: 344.07939pt x 253.34201pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (18.87668pt too wide) in paragraph at lines 746--747
+\T1/RobotoSlab-LF/m/sl/10.95 (-10) After in-ver-sion it-er-a-tion 11, the ve-lo
+c-i-ties around the in-ter-face/surface
+ []
+
+[22
+
+ <./figs/inv17preshut.png>]
+<figs/Inv17final.png, id=429, 1404.24625pt x 440.64626pt>
+File: figs/Inv17final.png Graphic file (type png)
+
+<use figs/Inv17final.png>
+Package pdftex.def Info: figs/Inv17final.png used on input line 751.
+(pdftex.def)             Requested size: 491.49355pt x 154.22849pt.
+
+Overfull \hbox (73.23982pt too wide) in paragraph at lines 751--752
+ [][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/Inv17FinRay.png, id=430, 937.5025pt x 888.31876pt>
+File: figs/Inv17FinRay.png Graphic file (type png)
+
+<use figs/Inv17FinRay.png>
+Package pdftex.def Info: figs/Inv17FinRay.png used on input line 758.
+(pdftex.def)             Requested size: 468.7501pt x 444.1583pt.
+
+Overfull \hbox (50.49638pt too wide) in paragraph at lines 758--759
+ [][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[23 <./figs/inv17postshut_orig.png>] [24 <./figs/inv17postshut.png> <./figs/Inv
+17final.png>] [25 <./figs/Inv17FinRay.png>]
+<figs/Inv18_0.png, id=451, 1107.13625pt x 330.23375pt>
+File: figs/Inv18_0.png Graphic file (type png)
+ <use figs/Inv18_0.png>
+Package pdftex.def Info: figs/Inv18_0.png used on input line 777.
+(pdftex.def)             Requested size: 442.84665pt x 132.09114pt.
+
+Overfull \hbox (24.59293pt too wide) in paragraph at lines 777--778
+ [][]
+ []
+
+
+Overfull \hbox (45.18892pt too wide) in paragraph at lines 782--783
+[]\T1/RobotoSlab-LF/m/sl/10.95 (-10) The scripts used are salton7base_raytr18.c
+sh and salton7base_inv18.csh;
+ []
+
+[26
+
+ <./figs/Inv18_0.png>] [27] [28]
+<figs/inv18_preshut.png, id=471, 1163.34625pt x 418.56375pt>
+File: figs/inv18_preshut.png Graphic file (type png)
+
+<use figs/inv18_preshut.png>
+Package pdftex.def Info: figs/inv18_preshut.png used on input line 857.
+(pdftex.def)             Requested size: 465.33026pt x 167.42252pt.
+
+Overfull \hbox (47.07654pt too wide) in paragraph at lines 857--858
+ [][]
+ []
+
+<figs/inv18_postshuttle.png, id=473, 734.745pt x 617.30624pt>
+File: figs/inv18_postshuttle.png Graphic file (type png)
+
+<use figs/inv18_postshuttle.png>
+Package pdftex.def Info: figs/inv18_postshuttle.png used on input line 867.
+(pdftex.def)             Requested size: 367.3716pt x 308.65236pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29
+
+ <./figs/inv18_preshut.png>]
+<figs/inv18final.png, id=482, 1175.39125pt x 382.42876pt>
+File: figs/inv18final.png Graphic file (type png)
+
+<use figs/inv18final.png>
+Package pdftex.def Info: figs/inv18final.png used on input line 884.
+(pdftex.def)             Requested size: 470.14818pt x 152.96878pt.
+
+Overfull \hbox (51.89445pt too wide) in paragraph at lines 884--885
+ [][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/inv18finalRay.png, id=484, 1100.11pt x 870.25125pt>
+File: figs/inv18finalRay.png Graphic file (type png)
+
+<use figs/inv18finalRay.png>
+Package pdftex.def Info: figs/inv18finalRay.png used on input line 893.
+(pdftex.def)             Requested size: 440.03621pt x 348.09433pt.
+
+Overfull \hbox (21.78249pt too wide) in paragraph at lines 893--894
+ [][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30 <./figs/inv18_postshuttle.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31 <./figs/inv18final.png> <./figs/inv18finalRay.png>]
+<figs/Inv18It5pre19.png, id=501, 1168.365pt x 357.335pt>
+File: figs/Inv18It5pre19.png Graphic file (type png)
+
+<use figs/Inv18It5pre19.png>
+Package pdftex.def Info: figs/Inv18It5pre19.png used on input line 908.
+(pdftex.def)             Requested size: 467.33772pt x 142.93146pt.
+
+Overfull \hbox (49.084pt too wide) in paragraph at lines 908--909
+ [][]
+ []
+
+<figs/Inv19startshut.png, id=502, 1058.95625pt x 667.49374pt>
+File: figs/Inv19startshut.png Graphic file (type png)
+
+<use figs/Inv19startshut.png>
+Package pdftex.def Info: figs/Inv19startshut.png used on input line 915.
+(pdftex.def)             Requested size: 423.575pt x 266.99277pt.
+
+Overfull \hbox (5.32127pt too wide) in paragraph at lines 915--916
+ [][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/Inv19start.png, id=504, 1172.38pt x 358.33875pt>
+File: figs/Inv19start.png Graphic file (type png)
+
+<use figs/Inv19start.png>
+Package pdftex.def Info: figs/Inv19start.png used on input line 924.
+(pdftex.def)             Requested size: 468.9437pt x 143.33296pt.
+
+Overfull \hbox (50.68997pt too wide) in paragraph at lines 924--925
+ [][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[32 <./figs/Inv18It5pre19.png>] [33 <./figs/Inv19startshut.png> <./figs/Inv19st
+art.png>]
+
+Package hyperref Warning: No autoref name for `subexperiment' on input line 934
+.
+
+[34
+
+] <figs/Inv19final.png, id=529, 1215.54124pt x 401.5pt>
+File: figs/Inv19final.png Graphic file (type png)
+
+<use figs/Inv19final.png>
+Package pdftex.def Info: figs/Inv19final.png used on input line 988.
+(pdftex.def)             Requested size: 486.20789pt x 160.59715pt.
+
+Overfull \hbox (67.95416pt too wide) in paragraph at lines 988--989
+ [][]
+ []
+
+<figs/Inv19finalRay.png, id=530, 988.69376pt x 893.3375pt>
+File: figs/Inv19finalRay.png Graphic file (type png)
+
+<use figs/Inv19finalRay.png>
+Package pdftex.def Info: figs/Inv19finalRay.png used on input line 995.
+(pdftex.def)             Requested size: 395.4705pt x 357.32866pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35
+
+ <./figs/Inv19final.png>] [36 <./figs/Inv19finalRay.png>]
+Overfull \hbox (13.65855pt too wide) in paragraph at lines 1008--1009
+\T1/RobotoSlab-LF/m/sl/10.95 (-10) ters are the same as in-ver-sion 17. Like-wi
+se, in salton7base_inv20.csh,
+ []
+
+
+Package hyperref Warning: No autoref name for `subexperiment' on input line 101
+1.
+
+[37
+
+] [38] [39] <figs/inv20_preshut.png, id=566, 1177.39874pt x 360.34625pt>
+File: figs/inv20_preshut.png Graphic file (type png)
+
+<use figs/inv20_preshut.png>
+Package pdftex.def Info: figs/inv20_preshut.png used on input line 1095.
+(pdftex.def)             Requested size: 470.95116pt x 144.13594pt.
+
+Overfull \hbox (52.69743pt too wide) in paragraph at lines 1095--1096
+ [][]
+ []
+
+<figs/inv20_postshuttle.png, id=567, 873.2625pt x 652.4375pt>
+File: figs/inv20_postshuttle.png Graphic file (type png)
+
+<use figs/inv20_postshuttle.png>
+Package pdftex.def Info: figs/inv20_postshuttle.png used on input line 1102.
+(pdftex.def)             Requested size: 349.29881pt x 260.97037pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/inv20final.png, id=570, 1625.07124pt x 576.1525pt>
+File: figs/inv20final.png Graphic file (type png)
+
+<use figs/inv20final.png>
+Package pdftex.def Info: figs/inv20final.png used on input line 1114.
+(pdftex.def)             Requested size: 487.52515pt x 172.84708pt.
+
+Overfull \hbox (69.27142pt too wide) in paragraph at lines 1114--1115
+ [][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/inv20finalRay.png, id=571, 1248.665pt x 1131.22626pt>
+File: figs/inv20finalRay.png Graphic file (type png)
+
+<use figs/inv20finalRay.png>
+Package pdftex.def Info: figs/inv20finalRay.png used on input line 1121.
+(pdftex.def)             Requested size: 374.60239pt x 339.3705pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40
+
+ <./figs/inv20_preshut.png>] [41 <./figs/inv20_postshuttle.png> <./figs/inv20fi
+nal.png>] [42 <./figs/inv20finalRay.png>]
+Overfull \hbox (2.31203pt too wide) in paragraph at lines 1136--1137
+\T1/RobotoSlab-LF/m/sl/10.95 (-10) re-name them salton7base_raytr21.csh and sal
+ton7base_inv21.csh,
+ []
+
+
+Package hyperref Warning: No autoref name for `subexperiment' on input line 114
+5.
+
+[43
+
+] [44] [45] <figs/inv21_preshut.png, id=614, 1618.045pt x 504.88625pt>
+File: figs/inv21_preshut.png Graphic file (type png)
+
+<use figs/inv21_preshut.png>
+Package pdftex.def Info: figs/inv21_preshut.png used on input line 1217.
+(pdftex.def)             Requested size: 485.41725pt x 151.46703pt.
+
+Overfull \hbox (67.16353pt too wide) in paragraph at lines 1217--1218
+ [][]
+ []
+
+<figs/inv21_postshut.png, id=615, 1130.2225pt x 1050.92625pt>
+File: figs/inv21_postshut.png Graphic file (type png)
+
+<use figs/inv21_postshut.png>
+Package pdftex.def Info: figs/inv21_postshut.png used on input line 1224.
+(pdftex.def)             Requested size: 339.06937pt x 315.2803pt.
+ [46
+
+ <./figs/inv21_preshut.png> <./figs/inv21_postshut.png>] <figs/inv21final.png, 
+id=625, 1614.03pt x 543.02875pt>
+File: figs/inv21final.png Graphic file (type png)
+
+<use figs/inv21final.png>
+Package pdftex.def Info: figs/inv21final.png used on input line 1237.
+(pdftex.def)             Requested size: 484.21274pt x 162.90987pt.
+
+Overfull \hbox (65.95901pt too wide) in paragraph at lines 1237--1238
+ [][]
+ []
+
+<figs/inv21finalRay.png, id=626, 1314.9125pt x 1123.19624pt>
+File: figs/inv21finalRay.png Graphic file (type png)
+
+<use figs/inv21finalRay.png>
+Package pdftex.def Info: figs/inv21finalRay.png used on input line 1244.
+(pdftex.def)             Requested size: 394.47679pt x 336.96147pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[47 <./figs/inv21final.png>] [48 <./figs/inv21finalRay.png>]
+<figs/interface_figures/inv14.pdf, id=640, 711.65875pt x 308.15125pt>
+File: figs/interface_figures/inv14.pdf Graphic file (type pdf)
+
+<use figs/interface_figures/inv14.pdf>
+Package pdftex.def Info: figs/interface_figures/inv14.pdf used on input line 12
+61.
+(pdftex.def)             Requested size: 426.99855pt x 184.89217pt.
+
+Overfull \hbox (8.74483pt too wide) in paragraph at lines 1261--1262
+ [][]
+ []
+
+<figs/interface_figures/inv15.pdf, id=643, 711.65875pt x 308.15125pt>
+File: figs/interface_figures/inv15.pdf Graphic file (type pdf)
+
+<use figs/interface_figures/inv15.pdf>
+Package pdftex.def Info: figs/interface_figures/inv15.pdf used on input line 12
+71.
+(pdftex.def)             Requested size: 426.99855pt x 184.89217pt.
+
+Overfull \hbox (8.74483pt too wide) in paragraph at lines 1271--1272
+ [][]
+ []
+
+[49
+
+ <./figs/interface_figures/inv14.pdf>]
+<figs/interface_figures/inv16.pdf, id=667, 711.65875pt x 308.15125pt>
+File: figs/interface_figures/inv16.pdf Graphic file (type pdf)
+
+<use figs/interface_figures/inv16.pdf>
+Package pdftex.def Info: figs/interface_figures/inv16.pdf used on input line 12
+78.
+(pdftex.def)             Requested size: 426.99855pt x 184.89217pt.
+
+Overfull \hbox (8.74483pt too wide) in paragraph at lines 1278--1279
+ [][]
+ []
+
+[50 <./figs/interface_figures/inv15.pdf> <./figs/interface_figures/inv16.pdf>]
+<figs/interface_figures/inv17.pdf, id=693, 711.65875pt x 308.15125pt>
+File: figs/interface_figures/inv17.pdf Graphic file (type pdf)
+
+<use figs/interface_figures/inv17.pdf>
+Package pdftex.def Info: figs/interface_figures/inv17.pdf used on input line 12
+88.
+(pdftex.def)             Requested size: 426.99855pt x 184.89217pt.
+
+Overfull \hbox (8.74483pt too wide) in paragraph at lines 1288--1289
+ [][]
+ []
+
+<figs/interface_figures/inv20.pdf, id=694, 711.65875pt x 308.15125pt>
+File: figs/interface_figures/inv20.pdf Graphic file (type pdf)
+
+<use figs/interface_figures/inv20.pdf>
+Package pdftex.def Info: figs/interface_figures/inv20.pdf used on input line 12
+95.
+(pdftex.def)             Requested size: 426.99855pt x 184.89217pt.
+
+Overfull \hbox (8.74483pt too wide) in paragraph at lines 1295--1296
+ [][]
+ []
+
+[51 <./figs/interface_figures/inv17.pdf> <./figs/interface_figures/inv20.pdf>]
+<figs/interface_figures/inv18.pdf, id=726, 711.65875pt x 308.15125pt>
+File: figs/interface_figures/inv18.pdf Graphic file (type pdf)
+
+<use figs/interface_figures/inv18.pdf>
+Package pdftex.def Info: figs/interface_figures/inv18.pdf used on input line 13
+07.
+(pdftex.def)             Requested size: 426.99855pt x 184.89217pt.
+
+Overfull \hbox (8.74483pt too wide) in paragraph at lines 1307--1308
+ [][]
+ []
+
+<figs/interface_figures/inv21.pdf, id=727, 711.65875pt x 308.15125pt>
+File: figs/interface_figures/inv21.pdf Graphic file (type pdf)
+
+<use figs/interface_figures/inv21.pdf>
+Package pdftex.def Info: figs/interface_figures/inv21.pdf used on input line 13
+14.
+(pdftex.def)             Requested size: 426.99855pt x 184.89217pt.
+
+Overfull \hbox (8.74483pt too wide) in paragraph at lines 1314--1315
+ [][]
+ []
+
+File: figs/inv18finalRay.png Graphic file (type png)
+<use figs/inv18finalRay.png>
+Package pdftex.def Info: figs/inv18finalRay.png used on input line 1322.
+(pdftex.def)             Requested size: 495.04494pt x 391.60945pt.
+
+Overfull \hbox (76.79121pt too wide) in paragraph at lines 1322--1323
+ [][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figs/inv21finalRay.png Graphic file (type png)
+<use figs/inv21finalRay.png>
+Package pdftex.def Info: figs/inv21finalRay.png used on input line 1329.
+(pdftex.def)             Requested size: 394.47679pt x 336.96147pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[52 <./figs/interface_figures/inv18.pdf> <./figs/interface_figures/inv21.pdf>]
+[53]
+</Users/vjsahakian/SaltonSea/Paper/Draft4/figs/schematic/line7schematic_crop.pd
+f, id=758, 789.91112pt x 210.7875pt>
+File: /Users/vjsahakian/SaltonSea/Paper/Draft4/figs/schematic/line7schematic_cr
+op.pdf Graphic file (type pdf)
+
+<use /Users/vjsahakian/SaltonSea/Paper/Draft4/figs/schematic/line7schematic_cro
+p.pdf>
+Package pdftex.def Info: /Users/vjsahakian/SaltonSea/Paper/Draft4/figs/schemati
+c/line7schematic_crop.pdf used on input line 1347.
+(pdftex.def)             Requested size: 434.45245pt x 115.93347pt.
+
+Overfull \hbox (16.19873pt too wide) in paragraph at lines 1347--1348
+ [][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 (./journal.brf)
 \tf@brf=\write6
 \openout6 = `journal.brf'.
 
- [15
-
-] [16
+ [54] [55 </Users/vjsahakian/SaltonSea/Paper/Draft4/figs/schematic/line7schemat
+ic_crop.pdf>] [56
 
 
 ]
 pdfTeX warning (font expansion): font should be expanded before its first use
 
 AED: lastpage setting LastPage
-[17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 548.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 548.
+[57]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1371.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1371.
  (./journal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 548.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 548.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1371.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1371.
+
 Package rerunfilecheck Info: File `journal.out' has not changed.
-(rerunfilecheck)             Checksum: F75C094841AFD8DDACF4F4D9EB50709F;870.
+(rerunfilecheck)             Checksum: AA01EC722C2C70A8126563D286D5747E;3882.
 Package rerunfilecheck Info: File `journal.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 13129 strings out of 493117
- 201958 string characters out of 6135433
- 477117 words of memory out of 5000000
- 16274 multiletter control sequences out of 15000+600000
- 27278 words of font info for 66 fonts, out of 8000000 for 9000
+ 13621 strings out of 493117
+ 212597 string characters out of 6135433
+ 486784 words of memory out of 5000000
+ 16564 multiletter control sequences out of 15000+600000
+ 40044 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,11n,55p,846b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,11n,55p,1011b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on journal.pdf (17 pages, 789851 bytes).
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2014/te
+xmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2014/texmf-dist/fo
+nts/type1/urw/palatino/uplr8a.pfb>
+Output written on journal.pdf (57 pages, 20764578 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
- 18049 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 867 PDF objects out of 1000 (max. 8388607)
+ 725 compressed objects within 8 object streams
+ 174 named destinations out of 1000 (max. 500000)
+ 21584 words of extra memory for PDF output out of 24883 (max. 10000000)
 
